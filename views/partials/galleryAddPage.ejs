@@ -1,0 +1,9 @@
+<div class="galleryAddPage">
+    <% gallery.forEach(key=> { %>
+    
+        <div class="grid">
+            <a href="/article/<%= key.id -1%> "><img src="<%=key.url%>" alt="one of the pictures"></img>
+        <h2><%=key.title%></h></a>
+            </div>
+    <% })%>
+    </div>
